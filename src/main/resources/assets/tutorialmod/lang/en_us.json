@@ -3,5 +3,12 @@
   "item.tutorialmod.raw_testite": "Raw Testite",
 
   "block.tutorialmod.testite_block": "Block of Testite",
-  "block.tutorialmod.raw_testite_block": "Block of Raw Testite"
+  "block.tutorialmod.raw_testite_block": "Block of Raw Testite",
+
+  "block.tutorialmod.testite_ore": "Testite Ore",
+  "block.tutorialmod.testite_deepslate_ore": "Testite Deepslate Ore",
+
+
+  "creativetab.tutorialmod.testite_items": "Testite Items",
+  "creativetab.tutorialmod.testite_blocks": "Testite Blocks"
 }

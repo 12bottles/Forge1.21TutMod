@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1800,
+  "experience": 2.25,
+  "group": "testite",
+  "ingredient": {
+    "item": "tutorialmod:raw_testite_block"
+  },
+  "result": {
+    "id": "tutorialmod:testite_block"
+  }
+}

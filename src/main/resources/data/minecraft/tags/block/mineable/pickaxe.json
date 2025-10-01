@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:testite_block",
+    "tutorialmod:raw_testite_block",
+
+    "tutorialmod:testite_ore",
+    "tutorialmod:testite_deepslate_ore"
+  ]
+}
