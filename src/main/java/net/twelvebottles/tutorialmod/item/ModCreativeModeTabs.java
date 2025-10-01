@@ -22,6 +22,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TESTITE.get());
                         output.accept(ModItems.TESTITE_NUGGET.get());
 
+                        output.accept(ModItems.TESTITE_APPLE.get());
+
+
+
                         output.accept(ModItems.CHISEL.get());
 
                     }).build());

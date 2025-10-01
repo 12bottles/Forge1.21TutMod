@@ -54,6 +54,7 @@ public class TutorialMod {
             event.accept(ModItems.TESTITE);
             event.accept(ModItems.RAW_TESTITE);
             event.accept(ModItems.TESTITE_NUGGET);
+            event.accept(ModItems.TESTITE_APPLE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

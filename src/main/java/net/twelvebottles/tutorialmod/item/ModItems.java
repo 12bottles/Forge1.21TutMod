@@ -1,5 +1,8 @@
 package net.twelvebottles.tutorialmod.item;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,6 +21,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TESTITE_NUGGET = ITEMS.register("testite_nugget",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> TESTITE_APPLE = ITEMS.register("testite_apple",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationModifier(2).effect(
+                    new MobEffectInstance(MobEffects.CONDUIT_POWER, 1200, 0), 1F
+                    )
+                    .build())));
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(128)));
