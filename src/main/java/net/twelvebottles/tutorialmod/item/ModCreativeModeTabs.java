@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TESTITE.get());
                         output.accept(ModItems.TESTITE_NUGGET.get());
 
+                        output.accept(ModItems.CHISEL.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> TESTITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("testite_blocks_tab",
