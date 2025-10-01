@@ -53,6 +53,7 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TESTITE);
             event.accept(ModItems.RAW_TESTITE);
+            event.accept(ModItems.TESTITE_NUGGET);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:testite"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:testite_nugget"
+  }
+}

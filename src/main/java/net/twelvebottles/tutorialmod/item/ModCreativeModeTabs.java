@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TESTITE.get());
                         output.accept(ModItems.RAW_TESTITE.get());
+                        output.accept(ModItems.TESTITE_NUGGET.get());
 
                     }).build());
 
