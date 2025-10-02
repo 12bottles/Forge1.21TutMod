@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.twelvebottles.tutorialmod.TutorialMod;
+import net.twelvebottles.tutorialmod.block.custom.MagicBlock;
 import net.twelvebottles.tutorialmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -37,7 +38,8 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2, 4),BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
 
 

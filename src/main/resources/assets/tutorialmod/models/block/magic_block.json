@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "tutorialmod:block/magic_block",
+    "side": "tutorialmod:block/testite_block",
+    "bottom": "tutorialmod:block/testite_block"
+  }
+}
