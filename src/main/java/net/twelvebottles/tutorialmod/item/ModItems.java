@@ -10,6 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.twelvebottles.tutorialmod.TutorialMod;
 import net.twelvebottles.tutorialmod.item.custom.ChiselItem;
+import net.twelvebottles.tutorialmod.item.custom.FuelItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -21,6 +22,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TESTITE_NUGGET = ITEMS.register("testite_nugget",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
+    public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
+            () -> new FuelItem(new Item.Properties(), 1200));
+
+
+
 
     public static final RegistryObject<Item> TESTITE_APPLE = ITEMS.register("testite_apple",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationModifier(2).effect(

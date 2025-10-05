@@ -23,6 +23,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TESTITE_NUGGET.get());
 
                         output.accept(ModItems.TESTITE_APPLE.get());
+                        output.accept(ModItems.KOHLRABI.get());
+
+                        output.accept(ModItems.AURORA_ASHES.get());
 
 
 
@@ -42,6 +45,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TESTITE_DEEPSLATE_ORE.get());
 
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+
+                        output.accept(ModBlocks.TESTITE_COMPOSTER.get());
 
                     }).build());
 

@@ -13,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.twelvebottles.tutorialmod.TutorialMod;
 import net.twelvebottles.tutorialmod.block.custom.MagicBlock;
+import net.twelvebottles.tutorialmod.block.custom.TestiteComposter;
 import net.twelvebottles.tutorialmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -40,6 +41,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> TESTITE_COMPOSTER = registerBlock("testite_composter",
+            () -> new TestiteComposter(BlockBehaviour.Properties.of().strength(2f)));
 
 
 
